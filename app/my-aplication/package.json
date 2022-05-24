@@ -1,0 +1,16 @@
+{
+  "name": "@brduarte/my-aplication",
+  "version": "1.0.0",
+  "main": "build/index",
+  "types": "build/index",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "start:dev": "ts-node-dev src/index.ts",
+    "clean": "rm -rf ./build"
+  },
+  "dependencies": {
+    "@core/http": "1.0.0"
+  }
+}
