@@ -1,4 +1,4 @@
-# lerna-example
+# Monorepo Example
 
 Template de monorepo Lerna com TypeScript e Babel
 
