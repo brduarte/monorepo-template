@@ -1,17 +1,19 @@
 # lerna-example
 
-Example Lerna monorepo with Jest, TypeScript & Babel
+Template de monorepo Lerna com TypeScript e Babel
 
 ## Features
 
-- `Go to definition` works without building the project.
-- Building packages creates the expected `build/` folder structure.
-- Minimal maintenance of config files.
+
+- Vá para trabalhos de definição sem executar o build do projeto.
+- A compilação de pacotes cria a estrutura de pastas/compilação esperada.
+- Manutenção mínima de arquivos de configuração.
+
 
 ## Setup
 
 ```shell
 npm install
 npm run bootstrap
-npm start:dev # Run build, tests & lint
+npm start:dev # Run build & start
 ```
