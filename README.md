@@ -18,7 +18,7 @@ $ lerna <command>
 
 ## Publishing Packages
 
-Para incrementar as versões do pacote, adicione tags git, envie alterações e publique no registro npm:
+Para incrementar as versões do pacote, adicione tags git, commite alterações e publique no registro npm:
 
 ## Available Package Scripts
 
