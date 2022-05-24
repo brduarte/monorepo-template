@@ -9,6 +9,7 @@
     "build": "lerna run build"
   },
   "devDependencies": {
+    "@babel/cli": "^7.17.10",
     "@babel/preset-env": "^7.18.0",
     "@babel/preset-typescript": "^7.17.12",
     "lerna": "~4.0.0",

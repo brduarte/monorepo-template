@@ -1,19 +1,32 @@
 # Monorepo Example
 
-Template de monorepo Lerna com TypeScript e Babel
+Template de monorepo Lerna com TypeScript e Babel.
 
-## Features
+## Getting Started
 
-
-- Vá para trabalhos de definição sem executar o build do projeto.
-- A compilação de pacotes cria a estrutura de pastas/compilação esperada.
-- Manutenção mínima de arquivos de configuração.
-
-
-## Setup
-
-```shell
+```bash
 npm install
 npm run bootstrap
-npm start:dev # Run build & start
+npm start:dev
 ```
+
+Para executar comandos [lerna](https://github.com/lerna/lerna/) diretamente:
+
+```bash
+$ lerna <command>
+```
+
+## Publishing Packages
+
+Para incrementar as versões do pacote, adicione tags git, envie alterações e publique no registro npm:
+
+## Available Package Scripts
+
+| Nome         | Descrição                                                                 |
+|--------------|---------------------------------------------------------------------------|
+| `bootstrap`  | Pré-transpile o(s) módulo(s) e execute `lerna bootstrap`                  |
+| `cleanup`    | Remove `node_modules` dentro de cada diretório de pacote                  |
+| `commit`     | Abra um diálogo interativo para gerar uma mensagem de commit convencional |
+| `learna`     | Inicie o assistente lerna                                                 |
+| `release`    | Gere changelogs e publique novas versões de pacotes                       |
+| `start`      | Execute `npm start` em cada pacote em paralelo                            |
